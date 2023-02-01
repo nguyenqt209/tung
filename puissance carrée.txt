@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Entrez votre chiffre: "
+read n
+case  $n in
+        $n)
+        echo "Racine carrée de $n est : "$n*$n""
+                ;;
+        *)
+esac
